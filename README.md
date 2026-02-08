@@ -1,73 +1,78 @@
-# React + TypeScript + Vite
+# Kimi Agent Omega - OMEGA Synthesis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository for **Kimi Agent Omega**, featuring the **OMEGA Synthesis** technical demonstration and research landing page. This project showcases a futuristic, high-performance web interface built with modern technologies.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project is deployed and accessible via GitHub Pages:
+**[View Live Site](https://or4cl3-ai-1.github.io/kimi-agent-omega/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+This project is built using a cutting-edge frontend stack:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Category | Technologies |
+| :--- | :--- |
+| **Framework** | [React 19](https://react.dev/) |
+| **Build Tool** | [Vite 7](https://vitejs.dev/) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/), [Radix UI](https://www.radix-ui.com/) |
+| **Animations** | [GSAP (GreenSock)](https://greensock.com/gsap/) |
+| **Type Safety** | [TypeScript](https://www.typescriptlang.org/) |
+| **Components** | Custom-built using [shadcn/ui](https://ui.shadcn.com/) patterns |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📂 Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The repository is organized into a clean, modular structure:
+
+```text
+src/
+├── components/       # Reusable UI components (Accordion, Buttons, etc.)
+├── sections/         # Main page sections (Hero, Features, Footer, etc.)
+├── lib/              # Utility functions and helper scripts
+├── hooks/            # Custom React hooks
+├── App.tsx           # Main application entry point
+└── main.tsx          # Vite mounting logic
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 💻 Local Development
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+To run this project locally on your machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/or4cl3-ai-1/kimi-agent-omega.git
+   cd kimi-agent-omega
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 📄 Research & Documentation
+
+Included in this repository is the **OMEGA-SYNTHESIS Technical Paper**, which details the theoretical framework and technical specifications of the Omega Agent system. You can find it in the `public/` directory or access it directly through the live site.
+
+---
+
+## 📜 License
+
+This project is for demonstration and research purposes. All rights reserved.
