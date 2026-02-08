@@ -1,11 +1,11 @@
-# Kimi Agent Omega - OMEGA Synthesis
+# OMEGA Synthesis
 
-Welcome to the official repository for **Kimi Agent Omega**, featuring the **OMEGA Synthesis** technical demonstration and research landing page. This project showcases a futuristic, high-performance web interface built with modern technologies.
+Welcome to the official repository for **OMEGA Synthesis**, a technical demonstration and research landing page. This project showcases a futuristic, high-performance web interface built with modern technologies.
 
 ## 🚀 Live Demo
 
 The project is deployed and accessible via GitHub Pages:
-**[View Live Site](https://or4cl3-ai-1.github.io/kimi-agent-omega/)**
+**[View Live Site](https://or4cl3-ai-1.github.io/omega-synthesis/)**
 
 ---
 
@@ -46,8 +46,8 @@ To run this project locally on your machine, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/or4cl3-ai-1/kimi-agent-omega.git
-   cd kimi-agent-omega
+   git clone https://github.com/or4cl3-ai-1/omega-synthesis.git
+   cd omega-synthesis
    ```
 
 2. **Install dependencies:**
@@ -69,7 +69,7 @@ To run this project locally on your machine, follow these steps:
 
 ## 📄 Research & Documentation
 
-Included in this repository is the **OMEGA-SYNTHESIS Technical Paper**, which details the theoretical framework and technical specifications of the Omega Agent system. You can find it in the `public/` directory or access it directly through the live site.
+Included in this repository is the **OMEGA-SYNTHESIS Technical Paper**, which details the theoretical framework and technical specifications of the system. You can find it in the `public/` directory or access it directly through the live site.
 
 ---
 
